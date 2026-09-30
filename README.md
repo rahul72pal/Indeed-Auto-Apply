@@ -9,16 +9,16 @@ project/
 ├── RUN_CONFIG.md               ← toggles you edit before each run
 ├── applications.md             ← running log the agent writes to (also prevents duplicates)
 └── docs/
-    ├── RULEBOOK.md              ← your personal info, CTC logic, standard Q&A answers
-    └── Resume_Aman_Mishra.pdf   ← put your actual resume file here
+    ├── RULEBOOK.md                  ← your personal info, CTC logic, standard Q&A answers
+    └── Rahul_Pal_Resume_Latest.pdf  ← put your actual resume file here
 ```
 
 ## 2. One-time setup
 
 1. Open this `project/` folder in VS Code.
-2. Copy your resume PDF into `docs/` and name it `Resume_Aman_Mishra.pdf`
-   (or update the `resume_path` in `RUN_CONFIG.md` to match whatever you
-   name it).
+2. Copy your resume PDF into `docs/` and name it
+   `Rahul_Pal_Resume_Latest.pdf` (or update the `resume_path` in
+   `RUN_CONFIG.md` to match whatever you name it).
 3. Open `docs/RULEBOOK.md` and double-check every value in Section 1 and 2
    is correct and current (CTC, notice period, stack priorities). Update
    this file any time your CTC, notice period, or target stack changes —

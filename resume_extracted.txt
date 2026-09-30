@@ -1,74 +1,56 @@
-Aman Mishra
-Email: amanmishra.5272@gmail.com
-Linkedin: iamanmishra
-Mobile:
-+91-8851225097
-Github: iaman-mishra
-Location: Mohali, India
-Education
-IIMT College Of Engineering
-Greater Noida, India
-Bachelor of Technology – Computer Science Engineering
-2021 – 2025
-Sanfort World School
-Greater Noida, India
-Higher Secondary
-2020 – 2021
-Delhi Scottish School
-Greater Noida, India
-Matriculation
-2018 – 2019
-Technical Skills
-Languages
-Python, JavaScript, SQL, TypeScript
-Frontend
-React.js, Next.js, HTML, CSS
-Backend
-FastAPI, Node.js, Express.js, NestJS, REST APIs
-Databases
-PostgreSQL, MongoDB, Redis, Qdrant, pgVector
-DevOps
-Docker, Docker Compose, Linux, AWS (S3, EC2, RDS, ECR), CI/CD
-AI & Automation LangChain, LangGraph, RAG, LLM Agents, Prompt Engineering, MCP, n8n, Ope-
-nAI API, Anthropic (Claude) API, Google Gemini API
-Experience
-75Way Technologies Pvt Ltd
-Mohali, Punjab
-Associate Software Development Engineer
-June 2025 – Present
-◦Full Stack Development: Built and deployed 5+ production-grade applications using FastAPI, React.js, Node.js, Next.js
-and REST APIs, serving 5000+ users.
-◦Performance Optimization: Improved frontend performance by 30% through component optimization and efficient state
-management.
-◦Code Quality: Led 20+ code reviews, reducing code duplication by 35% and improving maintainability.
-◦AI Workflow Automation: Designed and implemented AI-driven workflows using n8n for automating data processing
-and system integrations, reducing manual effort by over 80%.
-Projects
-ReviewBytes: AI-first, Gamified Medical Education Platform
-Feb 2026 – Present
-75Way Technologies
-◦Tech Stack: FastAPI, PostgreSQL, SQLAlchemy, Alembic, n8n, Docker, Redis, LangChain
-◦AI Content Pipeline: Designed and implemented an end-to-end LLM-powered content generation pipeline — ingesting
-raw text from OneNote via n8n, applying automated validation, error detection, and patching workflows, storing 10k+
-structured documents in a hierarchical PostgreSQL schema.
-◦BytesAI Chat Agent: Built a domain-constrained multi-agent AI system using LangChain with session orchestration,
-context-aware Q&A, and personalized recommendations; implemented RAG pipeline with pgVector for semantic retrieval.
-◦Caching & Performance: Redis caching with TTL strategies reduced DB load by 40–60% and improved API response
-times by up to 2x.
-◦DevOps & Deployment: Dockerized multi-service architecture with GitHub Actions CI/CD pipelines for automated
-deployment to AWS EC2.
-Greenroom: Social Media Platform for Athletes
-Oct 2025 – Jan 2026
-75Way Technologies
-◦Tech Stack: Node.js, React.js, PostgreSQL, Prisma, Docker, Redis
-◦Full Stack Development: Built and enhanced 10+ user-facing features across frontend and backend using React.js and
-Node.js in production.
-◦Large File Upload Optimization: Chunk-based video upload system using AWS S3 pre-signed URLs, enabling reliable
-large media handling and eliminating API timeout issues.
-◦Authentication & Security: Implemented access and refresh token-based authentication for secure session management
-and protected API access.
-◦Performance Optimization: Optimized frontend rendering and backend queries, improving load times by 20%.
-Certifications
-AWS Cloud Practitioner Certification – Self Paced: GFG
-Oracle Cloud Infrastructure 2024 Certified Foundations Associate: Oracle
-Cybersecurity Essentials: Cisco
+=== PAGE 1 ===
+RAHUL PAL 
+Full Stack Developer | MERN, Python and LLM/RAG Applications, Gwalior, India | +91 8962113963 
+rahulgwl72@gmail.com | linkedin.com/in/rahulpal-gwl896 | github.com/rahul72pal 
+PROFESSIONAL SUMMARY 
+Full stack developer with 1.5+ years of experience building MERN applications for healthcare, e-commerce, investment and 
+education products. Recent work is centered on generative AI: three GenAI products shipped, including an agentic chatbot 
+platform with a custom RAG pipeline and reranker. On the backend, cut a client’s Zoho API costs by 90% with Redis caching and 
+handled million-record datasets in Node.js without memory crashes. 
+TECHNICAL SKILLS 
+Languages: JavaScript (ES6+), TypeScript, Python, HTML5, CSS3 
+Frontend: React.js (incl. React 19), Next.js, React Native, Redux Toolkit (RTK Query), TanStack Query, React Router, Tailwind CSS, 
+Material UI, Shadcn UI, Bootstrap 
+Backend: Node.js, Express.js, NestJS, FastAPI, REST API design, Mongoose, Pydantic v2, JWT and cookie-based auth, OAuth, 
+Queue-Worker Architecture, Clean Architecture 
+Databases: MongoDB, MySQL, Redis, Qdrant (vector database) 
+AI / GenAI: RAG, LangChain, LLMs, AI Agents, Tool Calling, OpenAI, DeepSeek, OpenRouter, Embeddings, Hugging Face, 
+FastEmbed, Multi-Query Retrieval, Hybrid Search & Reranking  
+Cloud & Tools: AWS S3, Docker, Git, GitHub, Postman, Vercel, Netlify, Render, cPanel  
+Integrations: Razorpay, Stripe, Zoho API, Firebase, Expo Push Notifications 
+WORK EXPERIENCE 
+Associate Software Development Engineer | 75way Technologies Pvt. Ltd., Mohali, Punjab                                  Jun 2025 – Present 
+•​ Full stack work on healthcare, e-commerce and investment platforms, covering user flows from sign-up and onboarding 
+through booking, investing and admin dashboards. 
+•​ Built booking systems, CSV bulk upload/export and sub-admin permission panels used by admin teams. 
+•​ Added a Redis cache in front of the Zoho API integration, cutting API costs by 90%, and improved MongoDB indexing to speed 
+up responses. 
+•​ Built a custom API integration module with debounced search and export, then optimized the slow Mongoose queries and 
+React rendering behind it. 
+•​ Fixed crashes on million-record datasets in Node.js by switching to batching, pagination and streaming instead of loading 
+everything into memory. 
+•​ Set up AWS S3 file uploads and built animated UI components in React, Tailwind CSS and TypeScript. 
+Full Stack Developer | A2Developers (Remote)                                                                                                              Dec 2024 – Jun 2025 
+•​ Built a multi-tenant School ERP from scratch with bulk data import, automated fee management and real-time notifications, 
+cutting manual admin work by 90–95% for the schools using it. 
+•​ Implemented bulk student onboarding through Excel import, fee assignment by class or student, and auto-generated fee 
+receipts. 
+•​ Added bulk ID card generation with ZIP export, PDF exam report cards, and Android push notifications through Expo. 
+•​ Integrated Razorpay payments and role-based access control for employees, backed by REST APIs in Node.js/Express and 
+MySQL. 
+•​ Built the responsive UI with React, Redux, Tailwind CSS, Material UI and Shadcn UI. 
+PROJECTS 
+Enterprise GenAI Chatbot & RAG Engine | FastAPI, React 19, Python, TypeScript, Qdrant, LangChain, DeepSeek 
+•​ Built an agentic chatbot with LangChain agents that route across OpenAI, Antropic, Gemini,  DeepSeek, OpenRouter and 
+OpenAI, with function-calling tools (web_search, document_search), custom personas and an embeddable widget with live 
+preview. 
+•​ Built a RAG pipeline using multi-query rewriting, semantic embeddings, and Qdrant for vector search. Added a custom 
+reranking step that combines vector similarity with keyword matching to improve the relevance of retrieved results. 
+•​ Async FastAPI backend in a clean-architecture layout, with auto-expiring MongoDB TTL sessions, retry with exponential 
+backoff, and a React 19 dashboard using TanStack Query. 
+AI Interview Assistant | Next.js, TypeScript, Firebase, Tailwind CSS, Generative AI 
+•​ Mock interview platform that generates questions based on the selected role, experience level and interview type. 
+•​ GenAI-generated feedback on technical accuracy, confidence and communication, going beyond a single score. 
+EDUCATION 
+B.Tech. in Computer Science & Engineering 
+IPS College of Technology and Management, Gwalior | CGPA: 8.0/10                                                                         Jul 2021 – Apr 2025  
