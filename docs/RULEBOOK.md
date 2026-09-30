@@ -13,7 +13,7 @@ agent MUST stop and ask the user rather than guessing.
 | **Full Name**                              | Rahul Pal                                                                                             |
 | **Email**                                  | [rahulgwl72@gmail.com](mailto:rahulgwl72@gmail.com)                                                   |
 | **Phone**                                  | +91 8962113963                                                                                        |
-| **Current Location**                       | Mohali, Punjab                                                                                        |
+| **Current Location**                       | Gwalior, Madhya Pradesh                                                                               |
 | **Hometown (birthplace)**                  | Gwalior                                                                                               |
 | **Grew up / brought up in**                | Gwalior, India                                                                                        |
 | **LinkedIn**                               | linkedin.com/in/rahulpal-gwl896                                                                       |
@@ -32,8 +32,8 @@ agent MUST stop and ask the user rather than guessing.
 | **10th class %**                           | 84 %                                                                                                  |
 | **12th class %**                           | 86 %                                                                                                  |
 | **Graduation CGPA**                        | 8.0/10                                                                                                |
-| **Postal Code**                            | 160055                                                                                                |
-| **Address**                                | Mohali, Punjab                                                                                        |
+| **Postal Code**                            | UNCONFIRMED — was 160055 (Mohali) while Section 1 said Mohali. Ask the user for the Gwalior pincode; leave blank if the field is optional. |
+| **Address**                                | Gwalior, Madhya Pradesh                                                                               |
 
 ---
 
@@ -176,11 +176,11 @@ tweak (agent may lightly adapt wording to match company name/role name).
 | Reason for change / Why leaving current job | "Looking for a role with greater ownership, exposure to [role's core tech, e.g. AI/LLM systems or a larger-scale product], and stronger growth opportunities than my current position offers." |
 | Why do you want to join us / this role | Generate a 2–4 sentence tailored answer referencing 2–3 specific things from the JD (tech stack overlap, company mission/domain, growth stage) + tie back to Rahul's MERN / LangChain / RAG / full-stack experience. Never copy-paste a generic answer verbatim across companies — must reference the specific company name and domain. |
 | Why should we hire you / what makes you a fit | Reference: 1.5+ years shipping production MERN apps for healthcare, e-commerce, investment and education products; three GenAI products shipped including an agentic chatbot with a custom RAG pipeline (multi-query retrieval + hybrid search and reranking on Qdrant); cut a client's Zoho API costs by 90% with Redis caching; fixed Node.js crashes on million-record datasets using batching/pagination/streaming; built a multi-tenant School ERP that cut manual admin work by 90–95%. |
-| Current location | Mohali, Punjab |
+| Current location | Gwalior, Madhya Pradesh |
 | Hometown / native place | Gwalior (birthplace — use this specifically when a form asks "hometown" or "native place", NOT current location) |
 | Where did you grow up / brought up | Gwalior, India (use this if a form specifically asks where you were raised/grew up, distinct from "hometown") |
 | Willing to relocate | Yes, if role is a strong fit and city is within India. No, only if user has explicitly restricted a given run to "local only". |
-| Available for offline / in-person / face-to-face interview | **Do NOT default to "Yes" blindly.** Apply this logic: (1) If the job's city is Mohali, Chandigarh, Noida, or Delhi NCR (i.e. reachable within a day trip from current location) → Yes. (2) If the job's city is far (Bangalore, Pune, Hyderabad, Chennai, Ahmedabad, Mumbai, etc.) → answer "Yes, with advance notice to arrange travel" if the form allows free text, or select "Yes" only if the user has separately confirmed willingness for that specific far-city role — otherwise select **"No" / "Prefer virtual interview"** if that option exists, or flag as "Paused — Needs Input" if the form forces a binary Yes/No with no nuance and the city is far. Never silently commit to an in-person interview in a city that isn't reachable practically. |
+| Available for offline / in-person / face-to-face interview | **Do NOT default to "Yes" blindly.** Apply this logic: (1) If the job's city is Gwalior, or reachable within a day trip from Gwalior (Noida, Delhi NCR), or Mohali/Chandigarh (where he is currently employed) → answer "Yes". (2) If the job's city is far (Bangalore, Pune, Hyderabad, Chennai, Ahmedabad, Mumbai, etc.) → answer "Yes, with advance notice to arrange travel" if the form allows free text, or select "Yes" only if the user has separately confirmed willingness for that specific far-city role — otherwise select **"No" / "Prefer virtual interview"** if that option exists, or flag as "Paused — Needs Input" if the form forces a binary Yes/No with no nuance and the city is far. Never silently commit to an in-person interview in a city that isn't reachable practically. |
 | Willing to work onsite / WFO | Yes, unless user says otherwise for a specific run. |
 | Immediate joiner? | No — 30 days notice. If asked "can you join in X days" and X ≥ 30, answer Yes. |
 | Legally authorized to work in India | Yes |
@@ -294,12 +294,13 @@ start of every run.)*
   CI/CD, plus the previously listed project write-ups) so the agent can never
   attribute them to Rahul. Stack list and "Best Project" bank now contain only
   resume-verified content.
-- ⚠️ **OPEN QUESTION for the user — current location.** The rulebook Section 1 and
-  Section 4 answer "Mohali, Punjab" (where the current employer, 75way
-  Technologies, is based), but the resume header states **"Gwalior, India"**.
-  Both cannot be submitted to the same form. Confirm which one to use for
-  "current location / current city" fields and correct Section 1 + Section 4
-  here if it should be Gwalior.
+- ✅ **RESOLVED — current location.** Section 1 and Section 4 said "Mohali, Punjab"
+  but the resume header says **"Gwalior, India"**. Confirmed against the live
+  Indeed profile during the 2026-09-30 run: the stored profile city is
+  **"Gwalior, Madhya Pradesh"** and That is what auto-fills into application
+  forms. Rulebook now reads Gwalior, MP (two sources agree). The old Mohali
+  pincode 160055 removed — Gwalior pincode still unconfirmed, ask the user if a
+  form makes the postal code mandatory.
 - 2026-09-30: Hometown / "grew up" answers changed from Pratapgarh, UP / Noida, UP
   to **Gwalior / Gwalior** to match Section 1 (which had already been updated)
   and the resume's Gwalior education history. Correct here if that is wrong.

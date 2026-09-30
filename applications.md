@@ -50,6 +50,14 @@ Format per entry:
 - Contact info found in JD: None listed
 - Notes: Naukri saveApply flow returned multiApplyResp=200 and advanced through the application session; counted as an accepted application.
 
+### 2026-09-30 — SpaceAsia Infotech — Full-Stack Developer (Next.js / Node.js / Express)
+- JD URL: https://in.indeed.com/viewjob?jk=517d4907eb3511f2
+- City: Chandigarh
+- Platform: Indeed
+- Decision: Applied (native)
+- Contact info found in JD: None listed
+- Notes: Strongest match of the run — JD asks for exactly JavaScript, TypeScript, Next.js, Node.js, Express.js, NestJS (React Native a plus), all on the resume. ₹4.25–6 LPA, full-time, in-person in Chandigarh (adjacent to Mohali, so no relocation flag). Indeed Smart Apply review page initially stalled on "Preparing review"; a single page reload populated the review and submit succeeded — confirmation read "Your application was submitted to List & Sell GmbH" (SpaceAsia Infotech's registered entity), email confirmation sent to rahulgwl72@gmail.com. Resume attached and verified as Rahul_Pal_Resume_Latest.pdf.
+
 ---
 
 ## 🌐 External Application Required (Career Page / Google Form / ATS)
